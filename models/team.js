@@ -16,5 +16,5 @@ export default (sequelize, DataTypes) => {
       })
   };
 
-  return User;
+  return Team;
 };
