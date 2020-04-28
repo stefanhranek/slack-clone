@@ -1,6 +1,6 @@
 export default (sequelize, DataTypes) => {
   const Team = sequelize.define("team", {
-    Name: {
+    name: {
       type: DataTypes.STRING,
       unique: true,
     },

@@ -1,14 +1,14 @@
 export default (sequelize, DataTypes) => {
   const User = sequelize.define("user", {
-    Username: {
+    username: {
       type: DataTypes.STRING,
       unique: true,
     },
-    Email: {
+    email: {
       type: DataTypes.STRING,
       unique: true,
     },
-    Password: DataTypes.STRING,
+    password: DataTypes.STRING,
   });
 
   User.associate = (models) => {
