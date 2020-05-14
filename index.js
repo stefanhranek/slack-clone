@@ -8,8 +8,8 @@ import cors from "cors";
 
 import models from "./models";
 
-const SECRET = 'asiodfhoi1hoi23jnl1kejd';
-const SECRET2 = 'asiodfhoi1hoi23jnl1kejdkashdklasklfh';
+const SECRET = "asiodfhoi1hoi23jnl1kejd";
+const SECRET2 = "asiodfhoi1hoi23jnl1kejasdjlkfasdd";
 
 const typeDefs = mergeTypes(fileLoader(path.join(__dirname, "./schema")));
 
@@ -24,7 +24,7 @@ const schema = makeExecutableSchema({
 
 const app = express();
 
-app.use(cors("localhost:3000"));
+app.use(cors("*"));
 
 const graphqlEndpoint = "/graphql";
 
