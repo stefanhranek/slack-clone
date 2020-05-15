@@ -50,7 +50,7 @@ models.sequelize.sync({}).then(() => {
   app.listen(8082);
 });
 
-/* Save for testing
+/* Save for testing in case you want to drop database
 models.sequelize.sync({ force: true }).then(() => {
   app.listen(8082);
 });
