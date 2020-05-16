@@ -29,6 +29,14 @@ export default {
                 path: 'password',
                 message: 'The password needs to be between 5 and 100 characters long',
               },
+              {
+                path: 'email',
+                message: 'Invalid email',
+              },
+              {
+                path: 'username',
+                message: 'Invalid username',
+              },
             ],
           };
         }
