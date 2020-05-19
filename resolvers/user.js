@@ -19,7 +19,7 @@ export default {
   Mutation: {
     login: (parent, { email, password }, { models, SECRET, SECRET2 }) =>
       tryLogin(email, password, models, SECRET),
-    register: async (parent, { password, ...otherArgs }, { models }) => {
+    register: async (parent, { password, email, username}, { models }) => {
       try {
         if (password.length < 5 || password.length > 100) {
           return {
@@ -29,10 +29,27 @@ export default {
                 path: 'password',
                 message: 'The password needs to be between 5 and 100 characters long',
               },
+            ],
+          };
+          console.log(password, email, username)
+        }
+        
+        if (email.length<1) {
+          return {
+            ok: false,
+            errors: [
               {
                 path: 'email',
                 message: 'Invalid email',
               },
+            ],
+          };
+        }
+
+        if (username.length<1) {
+          return {
+            ok: false,
+            errors: [
               {
                 path: 'username',
                 message: 'Invalid username',
