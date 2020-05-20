@@ -1,6 +1,6 @@
-# Project Title
+# Slack Clone
 
-One Paragraph of project description goes here
+Building a clone of Slack, a collaboration hub that can replace email to help you and your team work together seamlessly. I'll be tweaking the styling a bit to make it sort of my own.
 
 ## Getting Started
 
