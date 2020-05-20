@@ -1,3 +1,5 @@
+<img src="slack.jpeg" align="right" />
+
 # Slack Clone
 
 Building a clone of Slack, a collaboration hub that can replace email to help you and your team work together seamlessly. I'll be tweaking the styling a bit to make it sort of my own.
