@@ -47,7 +47,7 @@ app.use(
 app.use("/graphiql", graphiqlExpress({ endpointURL: graphqlEndpoint }));
 
 models.sequelize.sync({}).then(() => {
-  app.listen(8082);
+  app.listen(8081);
 });
 
 /* Save for testing in case you want to drop database
