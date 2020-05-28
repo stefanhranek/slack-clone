@@ -1,4 +1,4 @@
-<img src="slack.jpeg" align="right" />
+<img src="slack.jpeg" align="center" />
 
 # Slack Clone
 
@@ -6,9 +6,14 @@ Building a clone of Slack, a collaboration hub that can replace email to help yo
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [React](https://reactjs.org/) - The front-end framework used
+* [GraphQL](https://graphql.org/) - Query language for APIs
+* [PostgreSQL](https://www.postgresql.org/) - Relational database
+* [Semantic UI](https://semantic-ui.com/) - Component framework
+* [MobX](https://mobx.js.org/README.html) - State management library
+* [Express](https://expressjs.com/) - Web framework
+
+
 
 ## Acknowledgments
 
