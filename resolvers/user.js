@@ -1,7 +1,5 @@
-import bcrypt from "bcrypt";
-import _ from "lodash";
-
 import { tryLogin } from "../auth";
+import formatErrors from '../formatErrors';
 
 const formatErrors = (e, models) => {
   if (e instanceof models.Sequelize.ValidationError) {

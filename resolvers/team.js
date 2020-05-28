@@ -1,3 +1,5 @@
+import formatErrors from '../formatErrors';
+
 export default {
   Mutation: {
     createTeam: async (parent, args, { models, user }) => {
