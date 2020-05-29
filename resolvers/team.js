@@ -1,4 +1,4 @@
-import formatErrors from '../formatErrors';
+import formatErrors from "../formatErrors";
 
 export default {
   Mutation: {
@@ -13,7 +13,7 @@ export default {
         return {
           ok: false,
           errors: formatErrors(err),
-        }
+        };
       }
     },
   },
