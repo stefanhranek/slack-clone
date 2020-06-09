@@ -5,6 +5,7 @@ import { makeExecutableSchema } from "graphql-tools";
 import path from "path";
 import { fileLoader, mergeTypes, mergeResolvers } from "merge-graphql-schemas";
 import cors from "cors";
+import jwt from 'jsonwebtoken';
 
 import models from "./models";
 
